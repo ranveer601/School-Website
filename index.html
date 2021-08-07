@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <title>Hogwarts Website</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+    <!--        bootstrap menue-->
+
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynav">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Hogwarts</a>
+        </div>
+        <div class="collapse navbar-collapse" id="mynav">
+            <ul class="nav navbar-nav">
+                <li><a href="#news">What's New</a></li>
+                <li><a href="#campus">Campus Life</a></li>
+                <li><a href="#achievements">Achivements</a></li>
+                <li><a href="#alumni">Alumni</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="news">
+            <h2 class="text-capitalize">What's New</h2>
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                    <h4>Warner Bros. Home Entertainment announced today that the first Harry Potter film will be released on Digital, Blu-ray and DVD with a new Magical Movie Mode – a way for fans to rewatch Harry’s first adventure in a whole new way.</h4>
+                    <img src="https://images.ctfassets.net/usf1vwtuqyxm/lbxISOVdOS64U428cc6mW/d4f3c826f6fc0f6b856c5e62c1be61c4/WB_F1_Hedwig_HarryHoldsHedwig_1383R_v2.jpg?w=380&h=285&fit=fill&f=top&fm=webp" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                    <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">As part of the 20th anniversary celebrations for Harry Potter and the Philosopher’s/Sorcerer’s Stone, Magical Movie Mode will be released on 17th August – and will arrive jam-packed with filmmaking secrets, spell incantations, trivia, fun activities and curiosities.
+
+                        This new release includes several special features as you watch the film, including a director’s commentary from Chris Columbus, deleted scenes, quizzes testing your potent knowledge of a vast array of topics from the film,and special graphic and audio features that will pop up on select scenes. See what new things you can learn about the beloved first film of the Harry Potter series.
+
+                        This is only one part of the many 20th anniversary celebrations you can expect to see this year, as we approach nearly two decades since Harry Potter and the Philosopher’s/Sorcerer’s Stone first hit our cinema screens. Keep an eye out for more announcements soon.</p>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="page-header" id="campus">
+            <h2 class="text-capitalize">Campus</h2>
+        </div>
+        <div class="place"><img class="img-responsive" src="https://i.pinimg.com/originals/f2/57/72/f25772834bc7359c8f83e33497065716.jpg">
+            <h4> <kbd>The Great Hall</kbd></h4>
+            <p class="text-muted text-left">Hogwarts Great Hall was actually modelled after the Great Hall at Christ Church in Oxford England. </p>
+        </div>
+
+        <div class="place"><img class="img-responsive" src="https://www.stadiumjourney.com/wp-content/uploads/2020/04/quidditch-pitch-aerial.jpg">
+            <h4> <kbd> Quidittch Field </kbd></h4>
+            <p class="text-muted text-left">Quidditch is a sport of two teams of seven players each mounted on a broomstick, played on a hockey rink-sized pitch. </p>
+        </div>
+
+        <div class="page-header" id="achievements">
+            <h2 class="text-capitalize">Achievements</h2>
+        </div>
+        <div class="bg-primary achivements" data-toggle="collapse" data-target="#ach">
+            Triwizard Tournament <i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="ach" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img class="img-responsive" src="https://static3.srcdn.com/wordpress/wp-content/uploads/2019/02/23-The-Triwizard-Tournament.jpg">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                <p>The Triwizard Tournament was a magical contest held between the three largest wizarding schools of Europe: Hogwarts School of Witchcraft and Wizardry, Durmstrang Institute, and Beauxbatons Academy of Magic, each school being represented by one Champion.</p>
+            </div>
+        </div>
+
+        <div class="page-header" id="alumni">
+            <h2>Alumni</h2>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 Book" data-toggle="modal" data-target="#Harry">
+            <img src="https://cdn.vox-cdn.com/thumbor/7n7Oe4myr7B7nYI-mxuuO3b-QrY=/150x0:1770x1215/1200x800/filters:focal(150x0:1770x1215)/cdn.vox-cdn.com/uploads/chorus_image/image/35330556/3176173-1748009911-hp.jp_.0.jpg" class="img-responsive">
+            <hr>
+            <p class="text-primary">Harry Potter</p>
+        </div>
+        <!--    modal starts here-->
+        <div class="modal fade" id="Harry">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"> &times; </button>
+                        <h4 class="modal-title">Harry Potter</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img src="https://cdn.vox-cdn.com/thumbor/7n7Oe4myr7B7nYI-mxuuO3b-QrY=/150x0:1770x1215/1200x800/filters:focal(150x0:1770x1215)/cdn.vox-cdn.com/uploads/chorus_image/image/35330556/3176173-1748009911-hp.jp_.0.jpg" class="img-responsive">
+                        <p class="p_modal">
+                           Throughout the series, Harry is described as having his father's perpetually untidy black hair, his mother's bright green eyes, and a lightning bolt-shaped scar on his forehead. He is further described as "small and skinny for his age" with "a thin face" and "knobbly knees", and he wears Windsor glasses.
+                            <br>
+                            <a href="https://en.wikipedia.org/wiki/Harry_Potter_(character)#:~:text=Throughout%20the%20series%2C%20Harry%20is,and%20he%20wears%20Windsor%20glasses." target="_blank"><b>Know More</b></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page-header" id="contact">
+            <h2 class="text-capitalize">Contact</h2>
+        </div>
+        <section id="contact">
+            <a href="https://www.wizardingworld.com/" target="_blank">
+                <img src="https://media.newyorker.com/photos/5909668e2179605b11ad631a/master/pass/Stein-Hogwarts.jpg">
+            </a>
+        </section>
+    </div>
+</body></html>
